@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2024-05-08T13:20:03.296386135Z",
+  "genesis_time": "2024-09-03T11:28:00.582290916Z",
   "chain_id": "mirum-1",
   "initial_height": "1",
   "consensus_params": {
@@ -35,7 +35,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "mirum1l3l520xmm5tjapydzd7usetc60ely0u6s70f6v",
+          "address": "mirum1r4ychskzplv6n99hjwk8sqn808fqgnuvjw5jp9",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -52,7 +52,7 @@
       },
       "balances": [
         {
-          "address": "mirum1l3l520xmm5tjapydzd7usetc60ely0u6s70f6v",
+          "address": "mirum1r4ychskzplv6n99hjwk8sqn808fqgnuvjw5jp9",
           "coins": [
             {
               "denom": "MIRUM",
@@ -133,11 +133,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "mirum1l3l520xmm5tjapydzd7usetc60ely0u6s70f6v",
-                "validator_address": "mirumvaloper1l3l520xmm5tjapydzd7usetc60ely0u6unl6jv",
+                "delegator_address": "mirum1r4ychskzplv6n99hjwk8sqn808fqgnuvjw5jp9",
+                "validator_address": "mirumvaloper1r4ychskzplv6n99hjwk8sqn808fqgnuv7rypf9",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "PbW/3pBg0e47IgX46k0J0fthDxSmzp1iefezwXW6RW4="
+                  "key": "DeLldW5l8UMM7KvdzznAQ+q8XSWO1YE9KkfP9uZ3YjE="
                 },
                 "value": {
                   "denom": "MIRUM",
@@ -145,7 +145,7 @@
                 }
               }
             ],
-            "memo": "71b684729bc4806326b4f7be4f0b2de1e49b9b10@10.132.0.3:26656",
+            "memo": "56e055105c76fbde5b5804f5849970f86e9a12af@37.60.234.14:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -155,7 +155,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A09jYlK1Y8+HW3zgnMbHizmRA1+B5rORjeHRNfpA8CPL"
+                  "key": "AzHrn3cLevYxHEerBScfMfGWndgiJ18lHw7Pgh6k05J6"
                 },
                 "mode_info": {
                   "single": {
@@ -174,7 +174,7 @@
             "tip": null
           },
           "signatures": [
-            "lYZjeoPv5sp9W2heVyHlflNAxKdzPPp+xecoO6IKuhAtTKW3lQANriGTbw1f88+w6h4416pY5iCFZl0sUwmlew=="
+            "1Dkt+w3XfESDLen/q3j3cA+v4qqiDDrW+jFcicLQEa90ryoWat+Cii/HdRAnU1wc9WVUtrcSRy72LuP/qbSRIw=="
           ]
         }
       ]
@@ -290,6 +290,11 @@
       "entries": []
     },
     "params": null,
+    "provider": {
+      "params": {
+        "max_provider_consensus_validators": "260"
+      }
+    },
     "rental": {
       "ClassOwners": [],
       "RentedNfts": []
@@ -298,7 +303,7 @@
       "params": {
         "signed_blocks_window": "100",
         "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600s",
+        "downtime_jail_duration": "6000s",
         "slash_fraction_double_sign": "0.050000000000000000",
         "slash_fraction_downtime": "0.010000000000000000"
       },
@@ -308,7 +313,7 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 100,
+        "max_validators": "300",
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "MIRUM",
